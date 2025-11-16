@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA3A99A72ECA10CA00F0E938 /* Exprense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exprense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA3A99B42ECA10CC00F0E938 /* Exprense TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exprense TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA3A99BE2ECA10CC00F0E938 /* Exprense TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exprense TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3A99A72ECA10CA00F0E938 /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3A99B42ECA10CC00F0E938 /* Expense TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expense TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3A99BE2ECA10CC00F0E938 /* Expense TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expense TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		AA3A99A82ECA10CA00F0E938 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA3A99A72ECA10CA00F0E938 /* Exprense Tracker.app */,
-				AA3A99B42ECA10CC00F0E938 /* Exprense TrackerTests.xctest */,
-				AA3A99BE2ECA10CC00F0E938 /* Exprense TrackerUITests.xctest */,
+				AA3A99A72ECA10CA00F0E938 /* Expense Tracker.app */,
+				AA3A99B42ECA10CC00F0E938 /* Expense TrackerTests.xctest */,
+				AA3A99BE2ECA10CC00F0E938 /* Expense TrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA3A99A62ECA10CA00F0E938 /* Exprense Tracker */ = {
+		AA3A99A62ECA10CA00F0E938 /* Expense Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA3A99C82ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Exprense Tracker" */;
+			buildConfigurationList = AA3A99C82ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Expense Tracker" */;
 			buildPhases = (
 				AA3A99A32ECA10CA00F0E938 /* Sources */,
 				AA3A99A42ECA10CA00F0E938 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				AA3A99A92ECA10CA00F0E938 /* Exprense Tracker */,
 			);
-			name = "Exprense Tracker";
+			name = "Expense Tracker";
 			packageProductDependencies = (
 			);
 			productName = "Exprense Tracker";
-			productReference = AA3A99A72ECA10CA00F0E938 /* Exprense Tracker.app */;
+			productReference = AA3A99A72ECA10CA00F0E938 /* Expense Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA3A99B32ECA10CC00F0E938 /* Exprense TrackerTests */ = {
+		AA3A99B32ECA10CC00F0E938 /* Expense TrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA3A99CB2ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Exprense TrackerTests" */;
+			buildConfigurationList = AA3A99CB2ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Expense TrackerTests" */;
 			buildPhases = (
 				AA3A99B02ECA10CC00F0E938 /* Sources */,
 				AA3A99B12ECA10CC00F0E938 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				AA3A99B72ECA10CC00F0E938 /* Exprense TrackerTests */,
 			);
-			name = "Exprense TrackerTests";
+			name = "Expense TrackerTests";
 			packageProductDependencies = (
 			);
 			productName = "Exprense TrackerTests";
-			productReference = AA3A99B42ECA10CC00F0E938 /* Exprense TrackerTests.xctest */;
+			productReference = AA3A99B42ECA10CC00F0E938 /* Expense TrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA3A99BD2ECA10CC00F0E938 /* Exprense TrackerUITests */ = {
+		AA3A99BD2ECA10CC00F0E938 /* Expense TrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA3A99CE2ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Exprense TrackerUITests" */;
+			buildConfigurationList = AA3A99CE2ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Expense TrackerUITests" */;
 			buildPhases = (
 				AA3A99BA2ECA10CC00F0E938 /* Sources */,
 				AA3A99BB2ECA10CC00F0E938 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				AA3A99C12ECA10CC00F0E938 /* Exprense TrackerUITests */,
 			);
-			name = "Exprense TrackerUITests";
+			name = "Expense TrackerUITests";
 			packageProductDependencies = (
 			);
 			productName = "Exprense TrackerUITests";
-			productReference = AA3A99BE2ECA10CC00F0E938 /* Exprense TrackerUITests.xctest */;
+			productReference = AA3A99BE2ECA10CC00F0E938 /* Expense TrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA3A99A22ECA10CA00F0E938 /* Build configuration list for PBXProject "Exprense Tracker" */;
+			buildConfigurationList = AA3A99A22ECA10CA00F0E938 /* Build configuration list for PBXProject "Expense Tracker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA3A99A62ECA10CA00F0E938 /* Exprense Tracker */,
-				AA3A99B32ECA10CC00F0E938 /* Exprense TrackerTests */,
-				AA3A99BD2ECA10CC00F0E938 /* Exprense TrackerUITests */,
+				AA3A99A62ECA10CA00F0E938 /* Expense Tracker */,
+				AA3A99B32ECA10CC00F0E938 /* Expense TrackerTests */,
+				AA3A99BD2ECA10CC00F0E938 /* Expense TrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		AA3A99B62ECA10CC00F0E938 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA3A99A62ECA10CA00F0E938 /* Exprense Tracker */;
+			target = AA3A99A62ECA10CA00F0E938 /* Expense Tracker */;
 			targetProxy = AA3A99B52ECA10CC00F0E938 /* PBXContainerItemProxy */;
 		};
 		AA3A99C02ECA10CC00F0E938 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA3A99A62ECA10CA00F0E938 /* Exprense Tracker */;
+			target = AA3A99A62ECA10CA00F0E938 /* Expense Tracker */;
 			targetProxy = AA3A99BF2ECA10CC00F0E938 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -494,7 +494,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exprense Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Exprense Tracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expense Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Expense Tracker";
 				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Debug;
@@ -520,7 +520,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exprense Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Exprense Tracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expense Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Expense Tracker";
 				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Release;
@@ -578,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA3A99A22ECA10CA00F0E938 /* Build configuration list for PBXProject "Exprense Tracker" */ = {
+		AA3A99A22ECA10CA00F0E938 /* Build configuration list for PBXProject "Expense Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA3A99C62ECA10CC00F0E938 /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA3A99C82ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Exprense Tracker" */ = {
+		AA3A99C82ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Expense Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA3A99C92ECA10CC00F0E938 /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA3A99CB2ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Exprense TrackerTests" */ = {
+		AA3A99CB2ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Expense TrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA3A99CC2ECA10CC00F0E938 /* Debug */,
@@ -605,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA3A99CE2ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Exprense TrackerUITests" */ = {
+		AA3A99CE2ECA10CC00F0E938 /* Build configuration list for PBXNativeTarget "Expense TrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA3A99CF2ECA10CC00F0E938 /* Debug */,
