@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+
 extension Color{
     static let background = Color("Background1")
     static let icon = Color("Icon1");
@@ -15,3 +16,14 @@ extension Color{
 
 }// new
 //new 3
+
+// string date to swift date
+
+extension DateFormatter{
+    static let allnumericUSA:DateFormatter = {
+        let formatter = DateFormatter() // creating a difference
+        formatter.dateFormat = "MM/dd/yyyy"
+        return formatter
+        
+    }()
+}

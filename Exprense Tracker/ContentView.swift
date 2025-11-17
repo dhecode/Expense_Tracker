@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             ScrollView{
-                VStack(alignment: leading, spacing: 24){
+                VStack(alignment: .leading, spacing: 24){
                     Text("Overview")
                         .font(.title2)
                         .bold()
@@ -27,12 +27,13 @@ struct ContentView: View {
                 ToolbarItem{
                     Image(systemName: "bell.badge")
                         .symbolRenderingMode(.palette)
-                        .foregroundColor(Color.icon,.primary)
-            }
-        }.navigationViewStyle(.stack)
+                        .foregroundColor(Color.icon)
+                }
+            }.navigationViewStyle(.stack)
+        }
     }
 }
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}
